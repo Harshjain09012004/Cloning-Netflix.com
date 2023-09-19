@@ -1,0 +1,422 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+font-family: 'Anton', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Tilt Prism', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    
+}
+body
+{
+    overscroll-behavior: none;
+}
+
+p{
+    font-size: 17px;
+    line-height: 24px;
+}
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: 'Anton', sans-serif;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Pacifico', cursive;
+        font-family: 'Tilt Prism', cursive;
+        font-family: 'Ubuntu', sans-serif;
+}
+h2{
+    font-size: 38px;
+    font-family: 'Anton', sans-serif;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Pacifico', cursive;
+        font-family: 'Tilt Prism', cursive;
+        font-family: 'Ubuntu', sans-serif;
+}
+h3{
+    font-size: 30px;
+}
+h4{
+    font-size: 24px;
+}
+
+h5{
+    font-size: 20px;
+}
+span{
+    font-size: 22px;
+}
+
+.navigation
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.635);
+    box-shadow: 0px 50px 40px rgba(0, 0, 0, 0.694);
+}
+
+#navbtn
+{
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#signin{
+    margin-top: 1.5%;
+    width: 30%;
+    height: 30px;
+}
+button
+{
+    background-color: rgba(241, 15, 15, 0.998);
+    border-radius: 6px;
+    border: 0.2px solid rgba(241, 15, 15, 0.74);
+}
+
+#language
+{
+    width: 40%;
+    background-color: black;
+    border-radius: 6px;
+    margin: 5px;
+    padding:5px;
+}
+
+header
+{
+    height: 97vh;
+    background: linear-gradient(rgba(23, 22, 22, 0.479)0% 40%,rgba(18, 18, 18, 0.457)45% 65%, rgba(0, 0, 0, 0.703) 75% 100%) , url("https://assets.nflxext.com/ffe/siteui/vlv3/dc1cf82d-97c9-409f-b7c8-6ac1718946d6/14a8fe85-b6f4-4c06-8eaf-eccf3276d557/IN-en-20230911-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+
+    background-size:cover;
+    box-shadow: -70px -80px -80px black;
+    
+
+}
+
+button :active {
+
+    box-shadow: 0px 0px  3px rgb(32, 14, 14);
+}
+
+input
+{
+    padding: 20px;
+    width: 100%;
+    border-radius: 5px;
+    background-color:rgba(37, 36, 36, 0.82);
+    border: 1px solid rgb(147, 146, 146);
+    
+}
+
+#middlehead
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90%;
+
+    gap: 10%;
+}
+.renew {
+
+   
+    width: 100%;
+    padding: 5%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+button:hover
+{
+    background-color: rgb(209, 3, 3);
+}
+
+button:active
+{
+    background-color: rgb(144, 3, 3);
+}
+
+
+#taglines
+{
+
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: fit-content;
+    width: 70vw;
+    gap: 16%;    
+
+}
+#tg2
+{
+    margin-top: 4%;
+}
+
+#renewmembership
+{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 23%;
+}
+
+#gateway
+{
+    margin-top:2% ;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 50%;
+
+}
+
+
+.features 
+{
+  display: flex;
+  background-color: black;
+  justify-content: space-evenly;
+  height: 70vh;
+  border-top: 7px solid rgb(49, 48, 48);
+  
+
+}
+
+.tv
+{
+    width: 60%;
+    position: relative;
+    margin: 3%;
+}
+
+.tv img
+{
+    
+    width: 79%;
+    margin-left: 10%;
+    margin-right:10%;
+    
+}
+#tv1 img
+{
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+}
+#tv1 video
+{
+    width: 59%;
+    margin: 20.4%;
+    margin-top:12.5%;
+}
+.content-left
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    gap: 20px;
+    margin: 2%;
+    margin-left: 10%;
+    
+    width: 50%;
+    
+}
+.content-right
+{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: justify;
+        gap: 20px;
+        margin: 2%;
+        margin-right: 10%;
+        width: 50%;
+}
+
+#download
+{
+    position: absolute;
+    display: flex;
+   
+    justify-content: space-evenly;
+
+    bottom:7%;
+    left:28%;
+    right: 28%;
+    height: 25%;
+
+    background-color: black;
+    border-radius: 10px;
+    border: 1px solid rgb(184, 184, 184);
+
+}
+
+#download img
+{
+    margin-top: 10px;
+    height:80%;
+   
+}
+
+#download #para
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#download #icon
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tv2 img {
+    position: absolute;
+    width: 88%;
+    left: 0px;
+    bottom: 0px;
+    top: 5.8%;
+}
+
+#tv2 video {
+    width: 57%;
+    margin:8%;
+    margin-left:25% ;
+}
+
+#FAQ {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+
+    padding-top: 4%;
+    padding-bottom: 3%;
+    gap: 20px;
+    border-top: 7px solid rgb(49, 48, 48);
+}
+
+.question:hover {
+    cursor: pointer;
+}
+
+.question {
+    background-color: rgb(56, 54, 56);
+    display: flex;
+    flex-direction: column;
+
+    width: 70%;
+
+    padding: 1.5%;
+    font-size: 26px;
+    border-radius: 5px;
+    transition: all 0.2s linear 0.2s;
+
+    
+}
+
+.question p
+{
+    font-size: 28px;
+    line-height: 35px;
+}
+
+.question:hover
+{
+    background-color:rgb(84, 83, 83);
+}
+.contentfaq {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.answer {
+
+    margin-top:5%;
+    display: none;
+
+   
+
+}
+.answer p
+{
+    color: rgb(195, 192, 192) ;
+}
+
+.unactive {
+    display: block;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+    border-top: 7px solid rgb(49, 48, 48);
+    background-color: black;
+
+    padding: 5%;
+
+    gap: 10px;
+
+  
+}
+
+footer #links
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+ul
+{
+    width: 15%;
+}
+li
+{
+    list-style: none;
+    margin: 6%;
+}
+
+a
+{
+    color: rgb(172, 172, 172);
+}
+
+#language2 {
+    width: 10%;
+    background-color: black;
+    border-radius: 6px;
+    margin: 5px;
+    padding: 5px;
+}
+
+footer p
+{
+    margin-left: 1%;
+}
